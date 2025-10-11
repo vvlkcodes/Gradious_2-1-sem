@@ -10,15 +10,7 @@ public class Main
 {
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
-        // System.out.println("Enter the size of the 2D array: ");
-        // int n = s.nextInt();
         int[][] arr = {{3,1,1,3},{4,9,1,2},{2,1,8,3},{4,2,6,9}};
-        // System.out.println("Enter the elements of the 2D array: ");
-        // for(int i=0;i<arr.length;i++){
-        //     for(int j=0;j<arr[i].length;j++){
-        //         arr[i][j] = s.nextInt();  
-        //     }
-        // }
         int d = 0;
         for(int i=0;i<arr.length;i++){
             for(int j=0;j<arr[i].length;j++){
@@ -26,16 +18,11 @@ public class Main
             }
         }
         int u = 0;
+        int l = 0;
         for(int i=arr.length-1;i>0;i--){
             for(int j=0;j<i;j++){
                 u += arr[j][i];
-            }
-        }
-        int l=0;
-        for(int i=0;i<arr.length;i++){
-            for(int j=0;j<i;j++){
-              l += arr[i][j]; 
-            
+                l += arr[i][j];
             }
         }
         System.out.println("Diagonal: "+d);
