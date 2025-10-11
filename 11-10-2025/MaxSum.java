@@ -12,17 +12,15 @@ public class Main
 		Scanner s = new Scanner(System.in);
         int[][] arr = {{3,1,1,3},{4,9,1,2},{2,1,8,3},{4,2,6,9}};
         int d = 0;
-        for(int i=0;i<arr.length;i++){
-            for(int j=0;j<arr[i].length;j++){
-                if(i == j) d += arr[i][j];
-            }
-        }
         int u = 0;
         int l = 0;
-        for(int i=arr.length-1;i>0;i--){
-            for(int j=0;j<i;j++){
-                u += arr[j][i];
-                l += arr[i][j];
+        for(int i=0;i<arr.length;i++){
+            for(int j=i;j<arr[i].length;j++){
+                if(i == j) d += arr[i][j];
+                else{
+                    u += arr[j][i];
+                    l += arr[i][j];
+                }
             }
         }
         System.out.println("Diagonal: "+d);
