@@ -10,6 +10,7 @@ public class Main
 	        {3,2,1,1}
 	    };
 	    System.out.println(Arrays.deepToString(arr));
+		// Trnspose.
 	    for(int i=0;i<arr.length;i++){
 	        for(int j=0;j<i;j++){
 	            int t = arr[i][j];
@@ -17,9 +18,10 @@ public class Main
 	            arr[j][i] = t;
 	        }
 	    }
+		// Row reversing.
 	    for(int i=0;i<arr.length;i++){
 	        int l = 0;
-	        int r = arr.length-1;
+	        int r = arr[i].length-1;
 	        while(l<r){
 	            int t = arr[i][l];
 	            arr[i][l] = arr[i][r];
