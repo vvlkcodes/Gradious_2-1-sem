@@ -9,10 +9,10 @@ public class Main
 	        {7,8,9}
 	    };
 	    System.out.println(Arrays.deepToString(arr));
-	    
+	    // Row reversing.
 	    for(int i=0;i<arr.length;i++){
 	        int l = 0;
-	        int r = arr.length-1;
+	        int r = arr[i].length-1;
 	        while(l<r){
 	            int t = arr[i][l];
 	            arr[i][l] = arr[i][r];
@@ -21,9 +21,10 @@ public class Main
 	            r--;
 	        }
 	    }
+		// Columns reversing.
 	    for(int i=0;i<arr.length;i++){
 	        int l = 0;
-	        int r = arr.length-1;
+	        int r = arr[i].length-1;
 	        while(l<r){
 	            int t = arr[l][i];
 	            arr[l][i] = arr[r][i];
