@@ -1,0 +1,70 @@
+Below is the ideal README.md that clearly explains:
+
+1.What the repository is
+
+2.Why it exists
+
+3.What the contents are
+
+4.How someone can navigate your files
+
+5.About your Gradious apprenticeship
+
+# Gradious – 2nd Year 1st Sem Apprenticeship Code Repository
+
+This repository contains all the coding work I complete as part of my apprenticeship training with **Gradious**.  
+The sessions are conducted **twice every week**, and after each session, I upload the code I wrote that day.
+
+---
+
+## 📘 About This Repository
+- Stores all programs and practice problems from Gradious training.
+- Updated regularly after every weekly session.
+- Organized neatly by **week** and **session**.
+- Shows my progress as an apprentice in 2nd year, 1st semester.
+
+---
+
+Gradious-2nd-year-1st-sem/
+├── Week-1/
+│ ├── Session-1/
+│ └── Session-2/
+├── Week-2/
+│ ├── Session-1/
+│ └── Session-2/
+└── Topics/
+├── Arrays/
+├── Iterations/
+├── Strings/
+├── Patterns/
+└── Series/
+
+
+---
+
+## 🧠 Topics Covered So Far
+### ✅ Arrays
+Programs based on array creation, traversal, searching, updating, etc.
+
+### ✅ Iterations (Loops)
+For loops, while loops, nested loops, and iteration-based problem solving.
+
+### ✅ Strings
+String manipulation, character operations, parsing, and common string problems.
+
+### ✅ Patterns
+Pattern printing using loops (stars, numbers, sequences, pyramids, etc.)
+
+### ✅ Series
+Generating mathematical and logic-based series (AP, GP, custom sequences).
+
+---
+
+## ▶️ How to Run the Programs
+### For Java Programs:
+```sh
+javac FileName.java
+java FileName
+
+
+## 📁 Folder Structure (Example)
