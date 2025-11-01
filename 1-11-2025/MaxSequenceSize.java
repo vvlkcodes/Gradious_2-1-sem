@@ -12,7 +12,6 @@ public class Main {
         
         
         int count = 1;
-        int[] arr = new int[30];
         int k = 0;
         int max = Integer.MIN_VALUE;
         for(int i=0;i<str.length()-1;i++){
